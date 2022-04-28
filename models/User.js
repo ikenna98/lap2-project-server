@@ -46,7 +46,7 @@ class User {
                     reject(`Username is taken.`)
                 }
             } catch (error) {
-                reject(`Error creating user: ${err}`)
+                reject(`Error creating user: ${error}`)
             }
         })
     }
